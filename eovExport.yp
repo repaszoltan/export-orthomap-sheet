@@ -11,3 +11,10 @@
 #         Ortofoto exprotalasa AgiSoft-bol               #   
 #             EOV 1:10 000 szelvenyekre                  #  
 ##########################################################
+
+16   
+#### Inicializalas PhotoSann-hez #########################
+import PhotoScan  
+doc = PhotoScan.app.document
+chunk = doc.activeChunk
+#### Inicializalas vege ##################################
