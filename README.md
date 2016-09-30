@@ -1,5 +1,5 @@
-# export-orthomap-sheet
-Python API for AgiSoft PhotoScan for export orthophoto in Hungarian EOV map sheets.
+#Export orthomap sheet
+Python API az AgiSoft PhotoScan progihoz EOV szelvényű ortofotó exportálás támogatására
 
  
 Diplomamunka                        
