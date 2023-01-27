@@ -160,7 +160,7 @@ def readEOV(mapSectionNumber):
         up_right_x = down_left_x  + (delta_x / 2**(powerExponent-1))                #Calc the upper right x coord
         print('Y2:',up_riht_y)
         print('X2:',up_right_x)
-        cornerCoords = [up_riht_y, up_right_x, down_left_y, down_left_x]
+        cornerCoords = (up_riht_y, up_right_x, down_left_y, down_left_x)			#Tuple is needed by Photoscan
         return(cornerCoords)
     
     def getEOVSectionScale(mapSectionNumber, sectionEOV):
