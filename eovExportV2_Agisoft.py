@@ -198,7 +198,7 @@ def readEOV(mapSectionNumber):
         getEOVSectionScale(mapSectionNumber,sectionEOV)                          #Give scale info about the section
         coords = getEOVCornerCoords(sectionEOV)                                  #Calc the coordinates
         print ('Starting export:')
-        path = folder + mapSectionNumber + type
+        path = folder + mapSectionNumber + "." + type
         print (path)
         # Define an export instruction for AgiSoft Photoscan
         chunk.exportOrthophoto(path, type, "mosaic", projection = proj, region = coords, dx = d_x, dy = d_y, write_kml=False, write_world=False)
@@ -208,6 +208,3 @@ def readEOV(mapSectionNumber):
 # Listing the EOV section numbers ################################################################################
 readEOV('40-1123')
 readEOV('109-3211223')
-readEOV('1111111')
-readEOV('910-21341111')
-readEOV('9100-21341')
