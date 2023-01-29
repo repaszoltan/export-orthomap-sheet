@@ -8,11 +8,6 @@ lehetőségei a közeli légi fotogrammetriában
 Répás Zoltán
 SZTE-TTIK                            
 TERMÉSZETI FÖLDRAJZI ES GEOINFORMATIKAI TANSZÉK  
-2014 Komárom                      
-repas.zoltan@progeo.hu    
+2014 Komárom                        
 Ortofoto exprotalása AgiSoft-bol       
 EOV 1:10 000 szelvenyekre
-
-Update:
-eovExportV2_Agisoft.py
-Re-edited script, support all scale level of EOV sections
